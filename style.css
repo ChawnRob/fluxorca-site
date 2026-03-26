@@ -123,10 +123,9 @@ body {
   transform: none;
   z-index: 1;
   pointer-events: none;
-  opacity: 0.4;
+  opacity: 0.35;
 }
-.orb-wrap figure {
-  opacity: 0.4;
+
 .c {
   width: 240px;
   height: 240px;
@@ -323,7 +322,7 @@ figure {
   transform: translate(-50%, -50%) rotateX(-40deg) rotateY(30deg) scale(0.95);
   transition: opacity 0.8s ease, transform 1.4s ease;
   transform-style: preserve-3d;
-  filter: drop-shadow(0 0 24px rgba(152, 189, 205, 0.12));
+  filter: drop-shadow(0 0 12px rgba(152, 189, 205, 0.08));
 }
 
 figure.active {
