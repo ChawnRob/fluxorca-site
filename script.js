@@ -34,7 +34,7 @@ document.getElementById("accept-cookies").onclick = () => {
   banner.style.display = "none";
 };
 
-document.getElementById("رفض-cookies").onclick = () => {
+document.getElementById("refuse-cookies").onclick = () => {
   localStorage.setItem("cookieChoice", "refused");
   banner.style.display = "none";
 };
