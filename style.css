@@ -12,14 +12,19 @@ body {
     radial-gradient(circle at 80% 30%, rgba(160, 93, 85, 0.06), transparent 25%),
     linear-gradient(180deg, #0a0f17 0%, #111927 55%, #0b1119 100%);
 }
-
+/* GLOBAL*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 /* HERO */
 .hero {
   min-height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
-  padding: 0 8%;
+  padding: 0;
   overflow: hidden;
 }
 
