@@ -20,3 +20,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
   observer.observe(target);
 });
+// COOKIE CONSENT
+const banner = document.getElementById("cookie-banner");
+
+if (!localStorage.getItem("cookieChoice")) {
+  banner.style.display = "flex";
+} else {
+  banner.style.display = "none";
+}
+
+document.getElementById("accept-cookies").onclick = () => {
+  localStorage.setItem("cookieChoice", "accepted");
+  banner.style.display = "none";
+};
+
+document.getElementById("رفض-cookies").onclick = () => {
+  localStorage.setItem("cookieChoice", "refused");
+  banner.style.display = "none";
+};
