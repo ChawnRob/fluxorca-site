@@ -116,15 +116,17 @@ body {
 
 .orb-wrap {
   position: absolute;
-  right: 4%;
-  top: 15%;
-  width: 240px;
-  height: 240px;
+  right: 2%;
+  top: 18%;
+  width: 220px;
+  height: 220px;
   transform: none;
   z-index: 1;
   pointer-events: none;
+  opacity: 0.4;
 }
-
+.orb-wrap figure {
+  opacity: 0.4;
 .c {
   width: 240px;
   height: 240px;
