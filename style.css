@@ -483,3 +483,42 @@ figure:hover {
   transform: translateY(-2px);
   opacity: 0.8;
 }
+/* COOKIE BANNER */
+.cookie-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(20, 20, 20, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 16px 24px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  z-index: 999;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.cookie-banner p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.cookie-actions button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+#accept-cookies {
+  background: #98bdcd;
+  color: black;
+}
+
+#رفض-cookies {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+}
