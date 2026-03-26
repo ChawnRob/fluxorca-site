@@ -467,3 +467,16 @@ figure:hover {
     width: 100%;
   }
 }
+.footer-home {
+  display: inline-block;
+  margin-top: 20px;
+  color: #c8ffd2;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-home:hover {
+  transform: translateY(-2px);
+  opacity: 0.8;
+}
