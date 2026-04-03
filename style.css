@@ -547,124 +547,31 @@ figure:hover {
   padding: 20px;
   border-radius: 10px;
 }
-xorc-architecture {
+.xorc-core {
   padding: 100px 20px;
   text-align: center;
 }
 
-.architecture-subtitle {
-  max-width: 720px;
-  margin: 0 auto 50px;
-  opacity: 0.8;
-}
-
-.arch-map {
-  max-width: 1100px;
+.xorc-core .container {
+  max-width: 900px;
   margin: 0 auto;
 }
 
-.arch-level {
-  margin-bottom: 10px;
+.xorc-core h2 {
+  margin-bottom: 18px;
 }
 
-.arch-label {
-  display: inline-block;
-  margin-bottom: 24px;
-  padding: 8px 16px;
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 999px;
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #98bdcd;
-  background: rgba(255,255,255,0.03);
-}
-
-.arch-row {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-}
-
-.arch-row.two {
-  max-width: 720px;
+.xorc-core p {
+  max-width: 760px;
   margin: 0 auto;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.78);
 }
 
-.arch-row.generals {
-  max-width: 1100px;
-  margin: 0 auto;
-}
 
-.arch-node {
-  min-width: 180px;
-  padding: 22px 18px;
-  border-radius: 16px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.08);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-  backdrop-filter: blur(10px);
-}
 
-.arch-node strong {
-  display: block;
-  font-size: 1.1rem;
-  margin-bottom: 6px;
-  color: #ffffff;
-}
 
-.arch-node span {
-  display: block;
-  font-size: 0.95rem;
-  color: rgba(255,255,255,0.75);
-}
 
-.arch-node.command {
-  min-width: 240px;
-  border-color: rgba(152,189,205,0.35);
-  box-shadow: 0 0 30px rgba(152,189,205,0.12);
-}
 
-.arch-node.heir {
-  min-width: 220px;
-}
 
-.arch-node.general {
-  min-width: 160px;
-}
 
-.arch-link {
-  width: 2px;
-  height: 42px;
-  margin: 12px auto 26px;
-  background: linear-gradient(
-    to bottom,
-    rgba(152,189,205,0.75),
-    rgba(152,189,205,0.08)
-  );
-  border-radius: 999px;
-}
-
-@media (max-width: 768px) {
-  .arch-node,
-  .arch-node.command,
-  .arch-node.heir,
-  .arch-node.general {
-    min-width: 100%;
-    max-width: 420px;
-    margin: 0 auto;
-  }
-
-  .arch-row,
-  .arch-row.two,
-  .arch-row.generals {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .arch-link {
-    height: 28px;
-  }
-}
